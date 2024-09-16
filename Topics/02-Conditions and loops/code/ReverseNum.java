@@ -9,7 +9,7 @@ public class ReverseNum {
         while (n > 0) {
             int lastdigit =  n % 10 ;
             //reversednum = reversednum * 10 + lastdigit ;
-            System.out.print(lastdigit);
+            System.out.print(lastdigit);   // This is easy method
             n = n/10 ;
         }
         //System.out.println("Reverse num is : " + reversednum);

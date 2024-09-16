@@ -11,7 +11,7 @@ public class CountNumber {
             if( rem == 5 ) {
                 count++;
             } 
-            //n = n/10 ;
+            n = n/10 ;
         }
         System.out.println(count);
     }
