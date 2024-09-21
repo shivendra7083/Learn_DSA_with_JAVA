@@ -2,6 +2,7 @@
 import java.util.Scanner;
 public class Sum {
     public static void main(String[] args) {
+        // Sum function
         sum();  // Calling functon / method with brackets
         sum();  // we call method multiple times
         System.out.println("Print using method");
