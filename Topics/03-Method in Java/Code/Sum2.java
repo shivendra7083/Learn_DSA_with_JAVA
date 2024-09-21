@@ -2,7 +2,7 @@
 import java.util.Scanner;
 public class Sum2 {
     public static void main(String[] args) {
-        // Sum2
+        // Sum2 
 //        int ans = sum2();
 //        System.out.println(ans);
         int ans = sum3(20 , 40);
