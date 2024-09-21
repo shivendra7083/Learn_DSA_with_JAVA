@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class StringExample {
     public static <string> void main(String[] args) {
-        //STing example
+        //STing example 
 //        String message  = greet();
 //        System.out.println(message);
 
