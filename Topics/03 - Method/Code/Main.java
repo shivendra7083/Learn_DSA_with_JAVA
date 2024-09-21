@@ -7,6 +7,11 @@ public class Main {
         Scanner in = new Scanner(System.in);
         int num1, num2, sum;
 
+//        access_modifier return_type method_name(parameter_list/ type arg1, type arg2) {
+//            // method body (the code that will be executed)
+//            return value;  // optional, only if return_type is not void
+//        }
+
         System.out.print("Enter number 1: ");
         num1 = in.nextInt();
         System.out.print("Enter number 2: ");
