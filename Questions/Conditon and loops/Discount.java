@@ -8,6 +8,7 @@ public class Discount {
         System.out.print("Discount percent : ");
         float Dpercent = sc.nextFloat();
         double discount = OriginalAmount * (Dpercent/100) ;
+        System.out.println("Dicount price : " + discount);
         System.out.print("FInal price of product is : ");
         double Finalprice = (OriginalAmount - discount) ;
         System.out.println(Finalprice);
