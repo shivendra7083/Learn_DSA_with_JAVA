@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class ElectricBill {
+    // Basic electric bill
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter unit : ");
