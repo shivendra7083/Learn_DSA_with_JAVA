@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// Define two methods to print the maximum and the minimum number respectively among three numbers entered by the user.
 public class Lar_Smal_3_Digit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
