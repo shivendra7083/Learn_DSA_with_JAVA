@@ -7,7 +7,7 @@ In Java, loops are used to execute a block of code repeatedly based on a conditi
 - when the number of iterations is known beforehand
 ## Syntax
 
-```
+``` java
 for (initialization; condition; update / increment / decrement) {
     // code to be executed
 }
@@ -15,7 +15,7 @@ for (initialization; condition; update / increment / decrement) {
 
 ### Example 
 
-```
+``` java
 for (int i = 0; i < 5; i++) {
     System.out.println(i);
 }
@@ -23,7 +23,7 @@ for (int i = 0; i < 5; i++) {
 ```
 - output
 
-```
+``` java
 0
 1
 2
@@ -40,7 +40,7 @@ for (int i = 0; i < 5; i++) {
 
 ### Syntax
 
-```
+``` java
 while (condition) {
     // code to be executed
 }
@@ -48,7 +48,7 @@ while (condition) {
 
 ### Example
 
-```
+``` java
 int i = 0;
 while (i < 5) {
     System.out.println(i);
@@ -67,7 +67,7 @@ while (i < 5) {
 - The conditon is wheater `true` or `false` but Statement will run atleast once times. 
 ### Syntax
 
-```
+``` java
 do {
     // code to be executed
 } while (condition);
@@ -76,13 +76,14 @@ do {
 
 ### Example
 
-```int i = 0;
+``` java
+int i = 0;
 do {
     System.out.println(i);
     i++;
 } while (i < 5);
 
-```
+``` 
 
 - Output will be same
 
