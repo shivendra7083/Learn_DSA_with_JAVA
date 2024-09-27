@@ -1,6 +1,6 @@
 ## Find the largest of 3 numbers
 
-```
+``` java
 import java.util.Scanner;
 
 public class Largest {
@@ -58,7 +58,7 @@ So the sequence goes like this: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55...
 ### Program
 
 `for ` loop :
-```
+``` java
 import java.util.Scanner;
 
 public class FibonacciSeries {
@@ -88,7 +88,7 @@ public class FibonacciSeries {
 ```
 
 `whie` loop
-```
+``` java
 import java.util.Scanner;
 
 public class FibonacciSeries {
@@ -136,7 +136,7 @@ To find the **last digit** of a given number in Java, you can use the modulus (`
 - If you have the number `12345`, you would divide it by 10 repeatedly
 - 12345 → 1234 → 123 → 12 → 1 → 0
 - The number has 5 digits
-```
+``` java
 import java.util.Scanner;
 
 public class CountDigits {
@@ -164,7 +164,7 @@ public class CountDigits {
 - Extract digits one by one: 13353 → 3 → 5 → 3 → 3 → 1
 - Count how many times `3` appears: it appears 3 times
 #### Example : Code to Count a Particular Digit in a Given Number:
-```
+``` java
 import java.util.Scanner;
 
 public class CountParticularDigit {
@@ -193,7 +193,7 @@ public class CountParticularDigit {
 
 ### Reverse
 
-```
+``` java
 import java.util.Scanner;
 public class ReverseNum {
 
