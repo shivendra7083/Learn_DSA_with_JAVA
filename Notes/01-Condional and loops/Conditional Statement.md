@@ -5,7 +5,7 @@ An `if-else` statement is a conditional statement that executes different block
 -  Else: Executes a block of code if the condition is false
 ## Syntax
 
-```
+``` java
 if (condition) {
     // code to execute if condition is true
 } else {
@@ -15,7 +15,7 @@ if (condition) {
 ```
 ### Example
 
-```
+``` java
 public class Main {
     public static void main(String[] args) {
         int age = 18;
@@ -38,7 +38,7 @@ Use `else-if` statement to specify a new condition if the first condition is Fal
 
 ### Syntax
 
-```
+``` java 
 if (condition1) {
     // code to execute if condition1 is true
 } else if (condition2) {
@@ -51,7 +51,7 @@ if (condition1) {
 
 ## Example
 
-```
+``` java
 public class Main {
     public static void main(String[] args) {
         int age = 25;
@@ -79,7 +79,7 @@ The **ternary operator** is a shorthand way of writing an `if-else` statement. I
 
 ### Syntax
 
-```
+``` java
 result = (condition) ? value_if_true : value_if_false;
 
 ```
@@ -87,7 +87,7 @@ result = (condition) ? value_if_true : value_if_false;
 
 ### Example : Even_Odd program
 
-```
+``` java
 public class Main {
     public static void main(String[] args) {
         int number = 10;
@@ -110,7 +110,7 @@ public class Main {
 Instead of writting many if..else statement , you can use the `switch`  statement .
 
 ## Syntax
-```
+```java
 switch (expression) {
     case value1:
         // Code to execute if expression equals value1
@@ -129,7 +129,7 @@ switch (expression) {
 - **Default:** The `default` case is optional and is executed if the expression doesn't match any of the case values.
 
 ### Example : Days of the week
-```
+``` java
 public class Main {
     public static void main(String[] args) {
         int day = 3;
@@ -184,7 +184,7 @@ The `break` statement is used to exit a loop or switch statement immediately, re
 
 #### Example : Breaking a loop when a condition is met
 
-```
+``` java
 public class Main {
     public static void main(String[] args) {
         for (int i = 1; i <= 10; i++) {
@@ -209,7 +209,7 @@ The `continue` statement skips the current iteration of the loop and moves to th
 
 #### Example : Skipping certain iterations
 
-```
+``` java
 public class Main {
     public static void main(String[] args) {
         for (int i = 1; i <= 5; i++) {
