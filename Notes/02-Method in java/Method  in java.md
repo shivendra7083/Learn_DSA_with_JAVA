@@ -7,7 +7,7 @@
 
 ### Syntax
 
-```
+``` java
 access_modifier return_type method_name(parameter_list/ type arg1, type arg2) {
     // method body (the code that will be executed)
     return value;  // optional, only if return_type is not void
@@ -28,7 +28,7 @@ access_modifier return_type method_name(parameter_list/ type arg1, type arg2) {
 
 #### Example 1: Method with No Parameters and No Return Value
 
-```
+``` java
 public void displayMessage() {
     System.out.println("Hello, World!");
 }
@@ -36,7 +36,7 @@ public void displayMessage() {
 
 #### Example 2: Method with Parameters and a Return Value
 
-```
+``` java
 public int addNumbers(int a, int b) {
     return a + b;
 }
@@ -44,7 +44,7 @@ public int addNumbers(int a, int b) {
 
 #### Example 3: Static Method
 
-```
+``` java
 public static String greet(String name) {
     return "Hello, " + name + "!";
 }
@@ -55,7 +55,7 @@ public static String greet(String name) {
 - **Method overloading** allows multiple methods with the same name but different parameter lists.
 
 #### Example : complete Java Method Demonstration
-```
+``` java
 public class MethodExample {
 
     // Static method without parameters and return value
@@ -122,7 +122,7 @@ public class MethodExample {
 ```
 ```
 
-```
+``` java
 // output
 
 Welcome to the Java Methods Example!
@@ -147,7 +147,7 @@ write the method's name followed by two parentheses **()** and a semicolon**;*
 - **Calling a Static Method**
 - **Calling an Instance Method**
 - Calling Methods with Parameters	```
-```
+``` java
 public class MyClass {
     // Method with parameters
     public int addNumbers(int a, int b) {
@@ -175,7 +175,7 @@ public class MyClass {
 ### Method overloading
 
 With **method overloading**, multiple methods can have the same name with different parameters:
-```
+``` java
 int myMethod(int x)
 float myMethod(float x)
 double myMethod(double x, double y)
@@ -184,7 +184,7 @@ double myMethod(double x, double y)
 ---
 ## Swap a number in java
 
-```
+``` java
 public class Swap {  
     public static void main(String[] args) {  
         
@@ -209,7 +209,7 @@ In Java, variables are only accessible inside the region they are created. This 
 
 - Variables or parameters defined within a method have method scope, meaning they are only accessible within that method.
 - Example:
-```
+``` java
 public class Example {
     public void display(int number) {  // number has method scope
         System.out.println(number);  // accessible within this method
@@ -221,7 +221,7 @@ public class Example {
 
 - Block scope refers to variables declared inside specific blocks like loops, if-else blocks, or methods. They are only accessible within that block.
 - example : 
-```
+``` java
 public class Example {
     public static void main(String[] args) {
         for (int i = 0; i < 5; i++) {  // 'i' has block scope, accessible only inside the loop
@@ -246,7 +246,7 @@ public class Example {
 ## Shadowing in java
 
 **Shadowing** in Java occurs when a variable declared in a local scope (e.g., inside a method or block) has the same name as a variable declared in an outer scope (e.g., in the class). The local variable **"shadows"** or hides the outer variable, making the outer one inaccessible within that scope.
-```
+``` java
 class Example {
     int x = 10;  // instance variable
 
@@ -262,7 +262,7 @@ Here, the local `x` hides the instance variable `x`. To access the outer `x`, yo
 #### Accessing Shadowed Variables:
 To access the outer variable, use the `this` keyword:
 
-```
+``` java
 System.out.println(this.x);  // prints 10
 ```
 ---
@@ -274,7 +274,7 @@ In Java, **varargs** (variable arguments) allow a method to accept **zero or mor
 `data_type ...reference_ variable`    `int = ...num
 #### Example
 
-```
+``` java
 public class VarargsExample {
     public static void printNumbers(int... numbers) {
         for (int number : numbers) {
@@ -294,12 +294,12 @@ public class VarargsExample {
 ### Rules of Varargs :
 
 - **Only One Varargs Parameter**: A method can have only **one** varargs parameter.
-```
+``` java
 public void method(int... x, String... y);  // Error: can't have two varargs
 ```
 
 - **Varargs Must Be Last**: If there are multiple parameters, the varargs parameter must be the **last** one in the method signature.
-```
+``` java
 public void method(String s, int... x);  // Valid
 public void method(int... x, String s);  // Error: varargs must be last
 
@@ -318,7 +318,7 @@ public void method(int... x, String s);  // Error: varargs must be last
 3. **Return Type Doesn’t Matter**: Changing only the return type of methods does not count as overloading.
 
 ### Example of Method Overloading:
-```
+``` java
 public class Calculator {
 
     // Method to add two integers
