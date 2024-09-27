@@ -81,7 +81,6 @@ The **ternary operator** is a shorthand way of writing an `if-else` statement. I
 
 ``` java
 result = (condition) ? value_if_true : value_if_false;
-
 ```
 
 
