@@ -21,12 +21,15 @@ public class Input {
 //            arr[i] = in.nextInt();
 //        }
 //
+        //  output 1
+
 //        System.out.println(Arrays.toString(arr));
 
+            // output 2
 //        for (int i = 0; i < arr.length; i++) {
 //            System.out.print(arr[i] + " ");
 //        }
-
+                // output 3
 //        for(int num : arr) { // for every element in array, print the element
 //            System.out.print(num + " "); //  here num represents element of the array
 //        }
