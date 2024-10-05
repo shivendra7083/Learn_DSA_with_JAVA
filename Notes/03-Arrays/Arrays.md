@@ -135,7 +135,7 @@ System.out.println(Arrays.toString(array));
 ```
 ---
 
-## Input in java
+## Input of array in java
 
 - u can take user input for arrays using the `Scanner` class.
 - **Loop through the Array**: Use a loop to take input for each element of the array.
