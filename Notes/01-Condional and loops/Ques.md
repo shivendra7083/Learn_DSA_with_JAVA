@@ -3,7 +3,7 @@
 ``` java
 import java.util.Scanner;
 
-public class Largest {
+public class Largest  {
 
     /**
 
