@@ -1,7 +1,7 @@
 
 # Array in java
 
- *Arrays are a fundamental data structure in Java that store a collection of elements of the same data type. They are indexed, allowing you to access elements by their position (starting from 0).
+*Arrays are a fundamental data structure in Java that store a collection of elements of the same data type. They are indexed, allowing you to access elements by their position (starting from 0).
 
 ## Syntax of array in java
 
@@ -42,7 +42,7 @@ arrayName[index];
 // Example
 arr [0]
 ```
->  **Note:** Array indexes start with 0: [0] is the first element. [1] is the second element, etc. 
+>  **Note:** Array indexes start with 0: [0] is the first element. [1] is the second element, etc.
 
 6. **Array Length**: The size (number of elements) of the array can be retrieved using `arrayName.length`
 ```java
