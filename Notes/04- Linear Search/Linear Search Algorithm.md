@@ -8,8 +8,14 @@
 - **Best case**: O(1) – The target element is the first element.
 - **Worst case**: O(n) – The target element is either the last element or not present.
 - **Average case**: O(n) – The target element is somewhere in the middle.
-![[Pasted image 20241013183405.png]]
-![[Pasted image 20241013183543.png]]
+---
+
+![Pasted image 20241013183405](https://github.com/user-attachments/assets/c383f0d3-6813-4027-95db-f5dfbd32cad6)
+---
+
+![Pasted image 20241013183543](https://github.com/user-attachments/assets/4bf43cc3-d352-4847-a233-70541802dfdf)
+
+---
 
 ### Space Complexity:
 
