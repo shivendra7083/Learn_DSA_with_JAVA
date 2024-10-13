@@ -1,4 +1,4 @@
-*Linear search is a simple searching algorithm that checks every element of an array or list sequentially until the desired element is found. If the element is found, the algorithm returns its index; otherwise, it returns `-1`.
+> *Linear search is a simple searching algorithm that checks every element of an array or list sequentially until the desired element is found. If the element is found, the algorithm returns its index; otherwise, it returns `-1`.
 #### Steps:
 1. **Start from the first element**: Compare the target element with the current element of the array.
 2. **Move to the next element**: If the current element is not equal to the target, move to the next element.
