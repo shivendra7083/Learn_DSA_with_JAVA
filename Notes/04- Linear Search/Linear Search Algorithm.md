@@ -66,7 +66,7 @@ public class LinearSearch {
 Linear search is one of the simplest searching algorithms, easy to understand and implement, but it isn't the most efficient for large datasets.
 ---
 
-* * **Unsorted Arrays**:  
+-  **Unsorted Arrays**:  
 Linear search works on **unsorted arrays**. It doesn't require the data to be in any particular order, unlike more advanced algorithms like binary search.
 ---
 
