@@ -12,7 +12,6 @@ public class Multidimentional {
 //                {4,5,6} ,
 //                {7,8,9}
 //        };
-
         int [][] arr = new int[4][3] ;
 
         // input
