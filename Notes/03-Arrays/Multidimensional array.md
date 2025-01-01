@@ -134,7 +134,6 @@ Enter number of columns: 3
 Enter elements of the array:
 1 2 3
 4 5 6
-
 ```
 #### output
 
