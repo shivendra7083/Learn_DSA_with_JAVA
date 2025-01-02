@@ -134,9 +134,6 @@ Factorial of 5: 120
 
 ```
 
-
-
-
 ---
 
 #### Call the method
