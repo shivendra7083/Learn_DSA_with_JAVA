@@ -13,7 +13,6 @@ dataType[] arrayName;
 int [] num ;
 ```
 
-
 2. **Creation**: Allocate memory for the array using the `new` keyword, followed by the type and size of the array.
 ```java
 arrayName = new dataType[arraySize];
