@@ -4,6 +4,7 @@ public class Max {
         System.out.println(max(arr));
     }
 
+
     // Imagine the arr   is not empty
     static int max(int [] arr) {
         int max = arr [0] ;
