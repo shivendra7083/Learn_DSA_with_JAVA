@@ -1,13 +1,33 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Arrays;
+import java.util.Scanner;
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in) ;
+        int n = sc.nextInt() ;
+        int [] arr = new int[n] ;
+        for(int i = 0 ; i < n ; i++) {
+            arr[i] = sc.nextInt();
+        }
+        selectionSort(arr);
+        System.out.print(Arrays.toString(arr));
+    }
+    public static void selectionSort (int [] arr ) {
+        int n = arr.length ;
+        for(int i = 0 ; i < n-1 ; i++) {
+            int minIndex = i ;
+            for(int j = i+1  ; j < n ; j++) {
+                if(arr[minIndex] > arr [j]) {
+                    minIndex = j ;
+                }
+            }
+            if(arr[minIndex] != arr[i]) {
+                int temp = arr[i] ;
+                arr[i] = arr[minIndex] ;
+                arr[minIndex] = temp ;
+            }
+        }
     }
 }
